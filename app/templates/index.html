@@ -1,7 +1,6 @@
 <!-- <h1>my display{{message}}</h1> -->
 {% extends 'base.html'%} {% block content %} {% block styles%} {{ super() }}
 <head>
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap');
 <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}"> {% endblock %}
 <br>
 <br>
@@ -13,26 +12,9 @@
     <div class="container-fluid">
       <div class="row">
 
+        
         <div class="col-3">
-          <div class="card-column">
-            <div class="card-header">
-              <h4>Browse Other News Sources</h4>
-            </div>
-            <div class="list-group list-group-flush scrolly">
-              <ul>
-                {% for source in sources %}
-                <a href="/article/{{source.id}}">
-                  <p class="text-capitalize text-muted">{{source.id}}</p>
-                </a>
-                {% endfor %}
-              </ul>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-9">
-          <h1 align="center"> HEADLINE NEWS </h3>
+          <h3 align="center"> HEADLINE NEWS </h3>
           <div class="container">
             <div class="card-columns">
               {% for headlines in headlines %}
@@ -54,6 +36,26 @@
             </div>
           </div>
         </div>
+
+        <div class="col-3">
+          <div class="card-column">
+            <div class="card-header">
+              <h4>Browse Other News Sources</h4>
+            </div>
+            <div class="list-group list-group-flush scrolly">
+              <ul>
+                {% for source in sources %}
+                <a href="/article/{{source.id}}">
+                  <p class="text-capitalize text-muted">{{source.id}}</p>
+                </a>
+                {% endfor %}
+              </ul>
+            </div>
+             
+          </div>
+        </div>
+
+
 
       </div>
     </div>

@@ -2,7 +2,7 @@
 .main {
     flex: 1 1 0;
     display: flex;
-    background-color: wheat;
+   
 }
 .container-fluid {
   display: flex;
