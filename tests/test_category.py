@@ -17,6 +17,3 @@ class CategoryTest(unittest.TestCase):
         Test to check creation of new Category instance,(is True)
         '''
         self.assertTrue(isinstance(self.new_category,Category))
-
-
-        
