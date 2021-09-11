@@ -11,3 +11,7 @@
   overflow-y: auto;
   height: 90vh; /* NEW */
 }
+.card1 img{
+  height: 100px;
+  width: 100px;
+}
