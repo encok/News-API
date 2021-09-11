@@ -1,9 +1,12 @@
 <!-- <h1>my display{{message}}</h1> -->
 {% extends 'base.html'%} {% block content %} {% block styles%} {{ super() }}
+<head>
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap');
 <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}"> {% endblock %}
 <br>
 <br>
 <br>
+</head>
 <body>
 
   <div class="main">
