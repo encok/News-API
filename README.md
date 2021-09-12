@@ -6,6 +6,7 @@ Enock Kipronoh
 NEWS. PAP! is a web application that displays a list of various news sources. Upon clicking a news source, it feeds you with the top news . With it is a link below the article that redirects to the news site that one reads more. It is by using https://newsapi.org/ news site that this can be achieved by consuming the news api.
 ## Screenshots
  <img src="images/news.png">
+ 
 ## Specifications
 | Behavior | Input | Output |
 | :---------------- | :----------------: |  ----------------:|
