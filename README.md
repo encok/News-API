@@ -24,28 +24,28 @@ In your terminal:
     $ git clone  https://github.com/encok/News-API <br>
     $ cd News-API
 ## Running the application
-first activate the virtual environment: 
-    * $ source virtual/bin/activate
-* Installing flask and other dependencies
-    $ pip install Flask
-    $ pip install Flask-Bootstrap 
-    $ pip install Flask-script
-   ## NOTE: 
+first activate the virtual environment:<br> 
+    * $ source virtual/bin/activate<br> 
+* Installing flask and other dependencies<br> 
+    $ pip install Flask<br> 
+    $ pip install Flask-Bootstrap <br> 
+    $ pip install Flask-script<br> 
+   ## NOTE: <br> 
       **The flask and flask bootstrap depends on the python version and it could bring incompatibility errors when wrong versions are installed**
-* Getting the api key
-      One needs an api key so as to consume the news api.
-       * Visit https://newsapi.org/ and sign up.
-       * In the news api website, generate an api key and then copy the key.
-       * Create a start.sh file in the root directory and add this lines
+* Getting the api key<br> 
+      One needs an api key so as to consume the news api.<br> 
+       * Visit https://newsapi.org/ and sign up.<br> 
+       * In the news api website, generate an api key and then copy the key.<br> 
+       * Create a start.sh file in the root directory and add this lines<br> 
             export NEWS_API_KEY='<Your-Api-Key>'
-            python3.8 manage.py server
-        * replace the api key with the api key you generated from thr site.
-* In order to run the application from the  terminal, : 
-        $ export NEWS_API_KEY=<Your api key>
-        $ chmode +x start.sh
-        $ ./start.sh
+            python3.8 manage.py server<br> 
+        * replace the api key with the api key you generated from thr site.<br> 
+* In order to run the application from the  terminal, : <br> 
+        $ export NEWS_API_KEY=<Your api key><br> 
+        $ chmode +x start.sh<br> 
+        $ ./start.sh<br> 
 ## For the apllication Test
- * To run the tests for the class files :
+ * To run the tests for the class files :<br> 
         $ python3.8 manage.py test
 ## Technologies used
 * python 3.8
