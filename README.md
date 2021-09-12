@@ -5,7 +5,7 @@ Enock Kipronoh
  ## Description
 NEWS. PAP! is a web application that displays a list of various news sources. Upon clicking a news source, it feeds you with the top news . With it is a link below the article that redirects to the news site that one reads more. It is by using https://newsapi.org/ news site that this can be achieved by consuming the news api.
 ## Screenshots
-
+ <img src="images/news.png">
 ## Specifications
 | Behavior | Input | Output |
 | :---------------- | :----------------: |  ----------------:|
@@ -20,7 +20,7 @@ NEWS. PAP! is a web application that displays a list of various news sources. Up
 * python3.8 -m venv --without-pip virtual
 # Cloning
 In your terminal: 
-    $ git clone 
+    $ git clone https://github.com/encok/News-API
     $ cd 
 ## Running the application
 first activate the virtual environment: 
@@ -50,6 +50,8 @@ first activate the virtual environment:
 * python 3.8
 * flask
 ## License Link
+
+https://github.com/encok/News-API/blob/master/LICENSE
 
 
           
