@@ -1,42 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
-  <title>Document</title>
-</head>
-<body>
-  <div class="">
+<div class="">
 
-    <nav class="navbar bg-dark ">
-    <h3> <a class="navbar-brand" href="/"><span class="badge badge-success">NEWS. PAP!</span></a></h3>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="d-flex justify-content-center">
-          <li class="nav-item active">
-            <a class="nav-link" href="/"><button type="button" class="btn btn-success">Home </button><span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/{{'categories/Business'}}"><button type="button" class="btn btn-success">Business News</button></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/{{'categories/Technology'}}"><button type="button" class="btn btn-success">Technology News</button></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/{{'categories/Entertainment'}}"><button type="button" class="btn btn-success">Entertainment</button></a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-        ©News. Pap! Api
-      </span>
-      </div>
-    </nav>
-  </div>
-  
-  
-</body>
-</html>
+  <nav class="navbar ">
+  <h3> <a class="navbar-brand" href="/">NEWS. PAP!</a></h3>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav d-flex justify-content-between">
+        <li class="nav-item active">
+          <a class="nav-link" href="/"><button type="button" class="btn btn-success">Home </button><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/{{'categories/Business'}}"><button type="button" class="btn btn-success">Business News</button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/{{'categories/Technology'}}"><button type="button" class="btn btn-success">Technology News</button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/{{'categories/Entertainment'}}"><button type="button" class="btn btn-success">Entertainment News</button></a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+      ©News. Pap! Api
+    </span>
+    </div>
+  </nav>
+</div>
